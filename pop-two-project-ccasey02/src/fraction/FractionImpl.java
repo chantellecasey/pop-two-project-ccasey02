@@ -52,7 +52,6 @@ public class FractionImpl implements Fraction {
     }
 
     public FractionImpl(int wholeNumber) {
-        // TODO
         // implement logic where wholeNumber is the numerator and the denominator is 1
         numerator = wholeNumber;
         denominator = 1;
@@ -61,6 +60,7 @@ public class FractionImpl implements Fraction {
 
     public FractionImpl(String frac) {
         // TODO
+        // make sure this implementation works because havent't tested properly yet
         int index = frac.indexOf('/');
         String str_numerator = frac.substring(0,index);
         String str_denominator = frac.substring(index, fraction.length()-1);
@@ -139,9 +139,11 @@ public class FractionImpl implements Fraction {
     }
 
     public boolean equals(Object o) {
-        //if
-        // this.fraction =
-        return super.equals(o);
+        boolean result = false;
+        if (o == this) {
+            result = true;
+        }
+        return result;
     }
 
     protected Object clone() throws CloneNotSupportedException {
@@ -149,7 +151,8 @@ public class FractionImpl implements Fraction {
     }
 
     public Fraction inverse() {
-        return null;
+        Fraction inverse = new FractionImpl(denominator, numerator);
+        return inverse;
     }
 
 

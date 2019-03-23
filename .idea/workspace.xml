@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee0ddf3-9e74-4a37-92fd-120d2ae19be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/coursework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-two-project-ccasey02/pop-two-project-ccasey02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-two-project-ccasey02/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/FractionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/FractionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/FractionImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,17 +22,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/FractionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
+            <state relative-caret-position="262">
+              <caret line="62" column="83" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5244#5245#0" expanded="true" />
                 <element signature="e#5283#5284#0" expanded="true" />
-                <element signature="e#5535#5536#0" expanded="true" />
-                <element signature="e#5562#5563#0" expanded="true" />
                 <element signature="e#5603#5604#0" expanded="true" />
                 <element signature="e#5627#5628#0" expanded="true" />
                 <element signature="e#5660#5661#0" expanded="true" />
@@ -50,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pop-two-project-ccasey02/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="136">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -76,13 +66,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/Fraction.java" />
-        <option value="$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/FractionImpl.java" />
         <option value="$PROJECT_DIR$/pop-two-project-ccasey02/src/Main.java" />
+        <option value="$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/FractionImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -132,7 +122,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553376936345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553379059175" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -182,15 +172,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553376641141</updated>
-      <workItem from="1553376642589" duration="290000" />
+      <workItem from="1553376642589" duration="1924000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented the following methods&#10;&#10;- add&#10;- subtract&#10;- multiply&#10;- divide&#10;- abs&#10;- negate">
+      <created>1553376994461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553376994461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290000" />
+    <option name="totallyTimeSpent" value="1924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -226,7 +225,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented the following methods&#10;&#10;- add&#10;- subtract&#10;- multiply&#10;- divide&#10;- abs&#10;- negate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the following methods&#10;&#10;- add&#10;- subtract&#10;- multiply&#10;- divide&#10;- abs&#10;- negate" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pop-two-project-ccasey02/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -236,26 +246,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pop-two-project-ccasey02/src/fraction/FractionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
+        <state relative-caret-position="262">
+          <caret line="62" column="83" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5244#5245#0" expanded="true" />
             <element signature="e#5283#5284#0" expanded="true" />
-            <element signature="e#5535#5536#0" expanded="true" />
-            <element signature="e#5562#5563#0" expanded="true" />
             <element signature="e#5603#5604#0" expanded="true" />
             <element signature="e#5627#5628#0" expanded="true" />
             <element signature="e#5660#5661#0" expanded="true" />
             <element signature="e#5691#5692#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pop-two-project-ccasey02/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
