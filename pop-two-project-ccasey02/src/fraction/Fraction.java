@@ -79,8 +79,8 @@ public interface Fraction extends Comparable<Fraction> {
      * Returns:
      *
      * A negative int if this is less than o.
-     * Zero if <pre>this</pre> is equal to o.
-     * A positive <pre>int</pre> if <pre>this</pre> is greater than o.
+     * Zero if this is equal to o.
+     * A positive int if this is greater than o.
      *
      *
      * @param f the fraction to compare this to
