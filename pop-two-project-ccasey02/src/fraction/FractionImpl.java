@@ -1,7 +1,5 @@
 package fraction;
 
-import java.io.FileReader;
-import java.util.Scanner;
 
 public class FractionImpl implements Fraction {
     /**
@@ -12,10 +10,12 @@ public class FractionImpl implements Fraction {
      *
      * The constructor should throw an <pre>ArithmeticException</pre> if the denominator is zero.
      *
-     @param numerator
-     @param denominator
+     @param numerator - integer
+     @param denominator - integer
+     @param fraction - string representation of fraction (better visibility when testing)
      */
-    public int numerator, denominator;
+    private int numerator, denominator;
+    // String fraction variable for easier visibility in testing
     public String fraction;
 
     public FractionImpl(int num, int denom) {
