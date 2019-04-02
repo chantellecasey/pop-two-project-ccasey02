@@ -83,7 +83,10 @@ public class FractionImpl implements Fraction {
         return gcd(b,a%b);
     }
 
-    // Method to calculate the sum of two fraction objects
+    /** Method to calculate the sum of two fraction objects
+     * @param f the fraction to add to the current fraction
+     * @return resulting fraction
+     */
     public Fraction add(Fraction f) {
         // define the variables for numerator and denominator of f
         int f_num = ((FractionImpl) f).numerator, f_denom = ((FractionImpl) f).denominator;
@@ -97,7 +100,10 @@ public class FractionImpl implements Fraction {
         return result;
     }
 
-    // Method to calculate the difference of two fractions
+    /** Method to calculate the difference of two fractions
+     * @param f the fraction to subtract from the current fraction
+     * @return resulting fraction
+     */
     public Fraction subtract(Fraction f) {
         int f_num = ((FractionImpl) f).numerator, f_denom = ((FractionImpl) f).denominator;
         // Calculate numerator of the subtraction - ad - bc
@@ -108,7 +114,10 @@ public class FractionImpl implements Fraction {
         return result;
     }
 
-    // Method to calculate the product of two fractions
+    /** Method to calculate the product of two fractions
+     * @param f the fraction to multiply with the current fraction
+     * @return resulting fraction
+     */
     public Fraction multiply(Fraction f) {
         int f_num = ((FractionImpl) f).numerator, f_denom = ((FractionImpl) f).denominator;
         // Calculate numerator of the subtraction - ac
@@ -119,7 +128,10 @@ public class FractionImpl implements Fraction {
         return result;
     }
 
-    // Method to calculate the division of two fractions
+    /** Method to calculate the division of two fractions
+     * @param f the fraction to take part in the division
+     * @return resulting fraction
+     */
     public Fraction divide(Fraction f) {
         //(a*d)/(b*c)
         int f_num = ((FractionImpl) f).numerator, f_denom = ((FractionImpl) f).denominator;
@@ -131,7 +143,9 @@ public class FractionImpl implements Fraction {
         return result;
     }
 
-        // Method to calculate the absolute value of a fraction
+    /** Method to calculate the absolute value of a fraction
+     * @return absolute value of fraction
+     */
     public Fraction abs() {
         if (numerator < 0) {
             numerator = numerator*-1;
@@ -140,14 +154,20 @@ public class FractionImpl implements Fraction {
         return result;
     }
 
-    // Method to calculate a fraction multipled by minus 1
+    /** Method to calculate a fraction multiplied by minus 1
+     *
+     * @return resulting fraction
+     */
     public Fraction negate() {
         numerator = numerator*-1;
         Fraction result = new FractionImpl(numerator, denominator);
         return result;
     }
 
-    // Method that returns a boolean determined by whether two fractions are equal
+    /** Method that returns a boolean determined by whether two fractions are equal
+     * @param o the object to compare this one to
+     * @return boolean indicating true or false
+     */
     public boolean equals(Object o) {
         boolean result = false;
         int o_num = ((FractionImpl) o).numerator, o_denom  =((FractionImpl) o).denominator;
@@ -158,13 +178,18 @@ public class FractionImpl implements Fraction {
         return result;
     }
 
-    // Method that returns a fraction which swaps around the numerator and denominator of the original fraction
+    /** Method that returns a fraction which swaps around the numerator and denominator of the original fraction
+     * @return resulting fraction
+     */
     public Fraction inverse() {
         Fraction inverse = new FractionImpl(denominator, numerator);
         return inverse;
     }
 
-    // Method which returns 1, -1, or 0 depending on whether this is greater than, less than, or equal to fraction o
+    /** Method which returns 1, -1, or 0 depending on whether this is greater than, less than, or equal to fraction o
+     * @param o
+     * @return integer 1, -1 or 0
+     */
     public int compareTo(Fraction o) {
         int result = 0;
         float result_this = this.numerator/this.denominator;
@@ -179,7 +204,9 @@ public class FractionImpl implements Fraction {
         return result;
     }
 
-    // Method that reurns a string rperesentation of the fraction
+    /** Method that returns a string representation of the fraction
+     * @return string representation of fraction, if denominator is 1 then only return numerator
+     */
     public String toString() {
         if (this. denominator == 1) {
             return Integer.toString(this.numerator);
